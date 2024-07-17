@@ -1,8 +1,9 @@
 <?php
 
 
-//how to avoid a situation where a user can insert an empty data into our db
-//introduce certain layers of validation to prevent that from happening
+//two layers of validation
+//the client site or browser validation
+//the server validation that cannot be bypass by any user 
 
 $config = require('config.php');
   
